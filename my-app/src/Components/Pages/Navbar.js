@@ -31,7 +31,7 @@ function NavBar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             WONDERS
-            <i class="fab fa-typo3" />
+            <i class="fas fa-globe-americas" id="logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

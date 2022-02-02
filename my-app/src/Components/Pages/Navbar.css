@@ -29,10 +29,13 @@
   align-items: center;
 }
 
-.fa-typo3 {
+#logo{
   margin-left: 0.5rem;
   font-size: 1.8rem;
+
+
 }
+
 
 .nav-menu {
   display: grid;

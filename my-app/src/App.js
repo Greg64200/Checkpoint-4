@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Home from "./Components/Pages/PagesDetail/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./Components/Pages/NavBar";
+import Navbar from "./Components/Pages/Navbar";
 // import Services from "./components/pages/Services";
 // import Products from "./components/pages/Products";
 
@@ -13,7 +13,7 @@ function App() {
     <>
       <div>
         <Router>
-          <NavBar />
+          <Navbar />
 
           <Routes>
             <Route path="/" exact element={<Home />} />

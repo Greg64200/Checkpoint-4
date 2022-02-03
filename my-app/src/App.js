@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 // import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import NavBar from "./Components/Pages/NavBar";
+import Navbar from "./Components/Pages/Navbar";
 // import Services from "./components/pages/Services";
 // import Products from "./components/pages/Products";
 // import SignUp from "./components/pages/SignUp";
@@ -13,7 +13,7 @@ function App() {
     <>
       <div>
         <Router>
-          <NavBar />
+          <Navbar />
           {/* <AdventureSection /> */}
           {/* <Switch>
             <Route path="/" exact component={Home} />

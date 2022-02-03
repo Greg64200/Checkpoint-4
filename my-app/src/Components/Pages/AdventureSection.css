@@ -18,7 +18,11 @@ video {
   object-fit: contain;
 }
 
-
+.hero-container > h2 {
+ 
+  font-size: 30gipx;
+  margin-top: -100px;
+}
 
 .hero-container > p {
   margin-top: 8px;

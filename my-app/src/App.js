@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
 import Home from "./Components/Pages/PagesDetail/Home";
+import Services from "./Components/Pages/PagesDetail/Services";
+import Products from "./Components/Pages/PagesDetail/Products";
+import SignUp from "./Components/Pages/PagesDetail/SignUp";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Pages/Navbar";
-// import Services from "./components/pages/Services";
-// import Products from "./components/pages/Products";
-
-// import AdventureSection from "./Components/Pages/AdventureSection";
 
 function App() {
   return (
@@ -17,6 +16,9 @@ function App() {
 
           <Routes>
             <Route path="/" exact element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/sign-up" element={<SignUp />} />
           </Routes>
         </Router>
       </div>

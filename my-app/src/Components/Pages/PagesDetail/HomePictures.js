@@ -25,7 +25,7 @@ function HomePictures() {
           <ul className="cards__items">
             <HomePicturesItem
               src="Images/img-3.jpg"
-              text="Relax in beautiful crystal clear waters of Tahiti"
+              text="Relax in the beautiful crystal clear waters of Tahiti"
               label="Resting"
               path="/services"
             />

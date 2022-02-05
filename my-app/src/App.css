@@ -4,7 +4,6 @@
   padding: 0;
   font-family: 'PT Sans', sans-serif;
 }
-
 .home,
 .services,
 .products,
@@ -16,15 +15,29 @@
   font-size: 3rem;
 }
 
+
+
+
 .services {
   /* background-image: url('/images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 80px;
   background-color: cadetblue;
 }
+
+@media screen and (max-width: 415px) {
+  .services {
+
+    font-size:60px ;
+  padding-bottom: 130px;
+ 
+
+  }
+}
+
 
 .products {
   /* background-image: url('/images/img-1.jpg'); */
@@ -32,17 +45,39 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 80px;
   background-color: burlywood;
+  }
 
+  @media screen and (max-width: 396px) {
+  .products {
+
+    font-size:60px ;
+    padding-bottom: 130px;
+ 
+
+  }
 }
 
+
+
 .sign-up {
-  /* background-image: url('/images/img-8.jpg'); */
+  /* background-image: url('/images/img-4.jpg'); */
   background-position: center;
-  background-size: cover;
+  background-size: cover; 
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 80px;
   background-color: rgba(165, 42, 42, 0.685);
+}
+
+
+@media screen and (max-width: 396px) {
+  .sign-up {
+
+    font-size:60px ;
+    padding-bottom: 130px;
+ 
+
+  }
 }
